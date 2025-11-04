@@ -15,7 +15,10 @@ pkg install x11-repo
 pkg install tur-repo
 pkg install zphisher
 apt install php
+pkg install neofetch
 
 cd 
 
 figlet -f standard thanks you 
+
+exit
