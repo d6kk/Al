@@ -22,10 +22,10 @@ echo "source $HOME/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> "$HO
 chsh -s zsh
 
 echo "oh-my-zsh install complete!\nChoose your color scheme now~"
-$HOME/.termux/colors.sh
+echo "0" | $HOME/.termux/colors.sh
 
 echo "Choose your font now~"
-$HOME/.termux/fonts.sh
+echo "14" | $HOME/.termux/fonts.sh
 
 echo "Please restart Termux app..."
 
