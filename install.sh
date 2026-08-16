@@ -28,38 +28,4 @@ echo "Choose your font now~"
 echo "14" | $HOME/.termux/fonts.sh
 
 echo "Please restart Termux app..."
-
-cat << 'EOF' >> ~/.zshrc
-alias c='clear'
-alias e='exit'
-alias gc='git clone'
-alias pu='pkg update && pkg upgrade -y'
-alias in='pkg install'
-alias unin='pkg uninstall'
-EOF
-
-cat << 'EOF' >> ~/.zprofile
-if [ -f ~/.zshrc ]; then
-     Source ~/.zshrc
-fi
-EOF
-#####################
-cat << 'EOF' >>  ~/.bashrc 
-alias c='clear'
-alias e='exit'
-alias gc='git clone'
-alias pu='pkg update && pkg upgrade -y'
-alias in='pkg install'
-alias unin='pkg uninstall'
-EOF
-
-cat << 'EOF' >>  ~/.bash_profile 
-if [ -f ~/.bashrc ]; then
-      source ~/.bashrc 
-fi
-EOF
-
-source ~/.bashrc
-source ~/.zshrc
-
 exit
