@@ -1,3 +1,3 @@
-#termux
-figlet -f standard is all basic packeges
-pkg install python && pip install colorama && pip install requests && pip install telethon && pip install licensing && pip install rich && pip install pyrogram && pip install tgcrypto && pip install setuptools==66.0.0 && pip install termcolor && pip install pyfiglet && pip install IP2Location && pip install pytz && pip install html5lib && pip install bs4
+# This file was removed and its content merged into file.sh
+# Original file: Script.sh
+# To actually delete this file from the repository, remove it via GitHub UI or git with appropriate permissions.
