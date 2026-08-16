@@ -1,21 +1,21 @@
- # installation all besic pkg in one commands
- # Requaments : 2GB plus storages
- # follow all commands
- * apt-get update 
- * apt-get upgrade
- * pkg install git
- * git clone https://github.com/darkiller409/Allbasic 
- * cd Allbasic 
- * bash install.sh
- * select colour   0 
- * select font    14
- * open new season
- * cd Allbasic
- * bash file.sh
+# installation all besic pkg in one commands
+# Requaments : 2GB plus storages
+# follow all commands
+* apt-get update 
+* apt-get upgrade
+* pkg install git
+* git clone https://github.com/darkiller409/Allbasic 
+* cd Allbasic 
+* bash install.sh
+* select colour   0 
+* select font    14
+* open new season
+* cd Allbasic
+* bash file.sh
 
- *WELCOME MASSAGE 
- *  /data/data/com.termux/files/usr/etc/nano zshrc
- *  neofetch
+*WELCOME MASSAGE 
+*  /data/data/com.termux/files/usr/etc/nano zshrc
+*  neofetch
 
 figlet -f standard   WELCOME
 
@@ -61,9 +61,12 @@ You can `VolUp+Q` to bring up an extra key bar, but you can also use combination
 
 For better text input experience, swipe left on the `VolUp+Q` key bar.
 
-## Example
+## Examples
 
 Tango color scheme + agnoster oh-my-zsh theme + Ubuntu font:
 
 ![](./termux-ohmyzsh.png)
-Screenshot_20230706_144535_Termux.jpg
+
+![Screenshot 1](./Screenshot_20230706_144535_Termux.jpg)
+
+![Screenshot 2](./Screenshot_20230706_144610_Termux.jpg)
